@@ -5,7 +5,10 @@ export default function Header () {
 
     return (
         <header>
-
+            <div>
+                <h1>Texture.img</h1>
+                <p>Convert your favourite images to text</p>
+            </div>
         </header>
     )
 }

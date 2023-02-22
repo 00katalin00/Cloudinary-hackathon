@@ -1,9 +1,25 @@
+@import './Variables.scss';
+
 * {
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-size: 18px;
 }
 
-@import './Header.scss'
+
+#wave {
+  position: fixed;
+  bottom: 0;
+  z-index: -10;
+}
+
+body {
+  background-color: $background;
+}
+
+@import './Header.scss';
+@import './Body.scss';
+@import './Dropzone.scss';
+@import './Footer.scss';
